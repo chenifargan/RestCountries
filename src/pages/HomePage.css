@@ -1,0 +1,11 @@
+.containerHomePage::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(236, 234, 234); /* Black background color */
+  z-index: -1;
+  /* Place the pseudo-element below the content */
+}
