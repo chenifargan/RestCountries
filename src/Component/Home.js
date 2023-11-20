@@ -17,7 +17,7 @@ const Home = ({ action, handleActionChange, handleSave }) => {
     <div className="container">
       <div className="header">
         <div className="text">Search Country</div>
-        <div className="underline"></div>
+        <div className="underline1"></div>
         <div className="submit-container">
           <div
             className={

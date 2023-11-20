@@ -1,0 +1,60 @@
+.underline {
+  width: 100%;
+  height: 0.5em;
+  background: rgb(0, 0, 0);
+  border-radius: 0.9em;
+}
+.img_flag {
+  width: 70%;
+  height: auto;
+  border-radius: 10%;
+  /* width: 70%; */
+  margin: 5% auto;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 10%;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 20px rgba(8, 7, 16, 0.6);
+}
+.div_flag {
+  display: inline-block;
+  vertical-align: top;
+}
+.div_container {
+  display: flex;
+}
+
+.map-container {
+  display: inline-block;
+  vertical-align: top;
+}
+.google_map {
+  /* width: 100%; Adjust the map width */
+  height: auto; /* Adjust the map height */
+  border-radius: 10%;
+  width: 100%;
+  margin: 5% auto;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 10%;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 20px rgba(8, 7, 16, 0.6);
+}
+ul {
+  list-style: none;
+}
+.style_for_p {
+  font-family: "Ubuntu", sans-serif;
+}
+.style_for_pl {
+  display: inline;
+}
+ul li {
+  display: inline;
+}

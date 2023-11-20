@@ -25,27 +25,13 @@
   font-size: 2em;
   font-weight: 700;
 }
-.underline {
+.underline1 {
   width: 5em;
   height: 0.5em;
   background: white;
   border-radius: 0.9em;
 }
-/* .inputs {
-  margin-top: 3.5em;
-  display: flex;
-  flex-direction: column;
-  gap: 1.25em;
-} */
-/* .input {
-  display: flex;
-  align-items: center;
-  margin: auto;
-  width: 80%;
-  height: 3em;
-  background: #eaeaea;
-  border-radius: 0.6em;
-} */
+
 .submit-container {
   display: flex;
   flex-direction: column;

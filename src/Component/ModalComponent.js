@@ -7,7 +7,6 @@ import { useEffect } from "react";
 const ModalComponenent = ({ dialogOpen, closeDialog, action, onSave }) => {
   const [textValue, setTextValue] = useState("");
   useEffect(() => {
-    // Reset textValue when the modal is opened
     if (dialogOpen) {
       setTextValue("");
     }
@@ -17,8 +16,8 @@ const ModalComponenent = ({ dialogOpen, closeDialog, action, onSave }) => {
   };
 
   const handleSaveChanges = () => {
-    onSave(textValue); // Pass the text value to the callback function
-    closeDialog(); // Close the modal
+    onSave(textValue);
+    closeDialog();
   };
 
   return (
